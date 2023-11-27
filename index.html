@@ -20,10 +20,10 @@
     <title>Práctica del DOM</title>
   </head>
   <body>
-    <main class="product-card">
-      <div class="product-image">
+    <!-- <main class="product-card">
+      <div class="product-image"> -->
         <!-- <img src="./public/img/graycar.jpg" alt="cars" /> -->
-      </div>
+      <!-- </div>
       <div class="product-description">
         <h3 class="tag">CARRO</h3>
         <h1 class="product-title">Mercedez Benz c300 2022</h1>
@@ -77,7 +77,60 @@
           >
         </button>
       </div>
+    </main> -->
+    <main class="centrar">
+      <section class="product-card">
+        <div class="product-image">
+          
+        </div>
+        <div class="product-description">
+          <p class="tag">CARRO</p>
+          <h1 class="product-title">Mercedez Benz c300 2022</h1>
+          <div class="product-details">
+            <p class="mileage">
+              <i class="fa-solid fa-car"></i>
+              Kilometraje: 4,000 millas
+            </p>
+            <p class="fuel">
+              <i class="fa-solid fa-gas-pump"></i>
+              Combustible: 25mpg
+            </p>
+            <p class="safety">
+              <i class="fa-solid fa-shield"></i>
+              Seguridad:
+              <span class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+              </span>
+            </p>
+          </div>
+          <p>Escoge un color:</p>
+          <div class="colors-price">
+            <div class="colors">
+              <span class="red"></span>
+              <span class="gray"></span>
+              <span class="black"></span>
+            </div>
+            <div class="pricing">
+              <h2 class="new-price">$134,450</h2>
+              <h3 class="old-price"><s>$140,500</s></h3>
+            </div>
+          </div>
+          <button id="button">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="button-text">Agregar al carrito</span>
+          </button>
+          <button class="feedback">
+            <span id="white-button">? Guao, vas a ser el dueño de un Benz ?</span>
+          </button>
+        </div>
+      </section>
+      
     </main>
-    <script src="./src/js/app.js"></script>
+    <script src="./src/js/app.js" type="module"></script>
   </body>
 </html>
