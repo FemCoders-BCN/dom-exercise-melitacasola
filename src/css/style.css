@@ -2,15 +2,16 @@
     font-family: "Poppins", sans-serif;
   }
   
-  body {
-    height: 100vh;
+  html {
+    
+    background-color: antiquewhite;
+  }
+  .centrar{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-y: hidden;
-    background-color: antiquewhite;
   }
-  
   /* etiqueta de producto */
   .tag {
     font-size: 0.9rem;
@@ -31,51 +32,60 @@
   .product-card {
     background: #fff;
     display: grid;
-    /* align-items: center; */
-    grid-template-rows: 55% 45%;
-    height: 80%;
-    width: 28%;
+    align-items: center;
+    background-color: #62c256;
+    /* grid-template-rows: 30% 70%; */
+    /* height: auto; */
+    /* width: 100%; */
     box-shadow: 10px 10px 25px 0px #3c3c3c;
   }
   
   .product-image {
-    /* border: 2px solid black; */
+    
     background-image: url("../../public/img/blackcar.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px 10px;
-    width: 28rem;
-    height: 66%;
+    padding: 150px;
+    /* width: 28rem; */
+    /* height: 40%; */
   }
   
+ 
   .product-description {
     background-color: #62c256;
     color: #fff;
-    padding-left: 20px;
-    margin-top: -67px;
+    padding: 20px;
+    /* margin-top: 80px; */
   }
   
   .product-details {
     display: flex;
     flex-direction: column;
-    margin-top: -20px;
+
   }
   
   .product-image img {
     width: 28rem;
   }
-  
+
+  .safety{
+    display: flex;
+    flex-direction: row;
+  }
   .stars {
     color: yellow;
     font-size: 1em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
   }
   
   /* colores */
   .colors-price {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 90%;
     justify-content: space-between;
     margin-top: -15px;
   }
