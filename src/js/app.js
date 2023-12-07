@@ -9,6 +9,7 @@ const itemTag = document.querySelector(".tag")
 
 const imgCard =document.querySelector(".product-image")
 
+
 redColor.addEventListener("click", () => {
     imgCard.style.backgroundImage = 'url("../../public/img/redcar.jpg")';
     cartButton.style.backgroundColor = "red";
@@ -21,7 +22,6 @@ blackColor.addEventListener("click", () => {
     imgCard.style.backgroundImage = 'url("../../public/img/blackcar.jpg")';
     cartButton.style.backgroundColor = "black";
     itemTag.style.backgroundColor = "black";
-   
 
 })
 
